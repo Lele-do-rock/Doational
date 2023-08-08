@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+body{
+    background-color: #f1f1f1 !important;
+}
+
+.w100{
+    width: 100%;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    background-color: #fff;
+    height: 120px;
+    top: 0;
+}
+
+header h2, footer h2{
+    color: #4cc094;
+}
+
+.justify{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1{
+    width: 90%;
+    margin: auto;
+}
+
+.logo img{
+    width: 86px;
+    height: 70px;
+    border-radius: 15px;
+}
+
+.logo{
+    gap: 15px;
+}
+
+.btn1{
+    padding: 15px;
+    background-color: #4cc094;
+    color: #fff;
+}
+
+a{
+    text-decoration: none !important;
+    display: flex !important;
+    color: #000 !important;
+}
+
+h1{
+    font-size: 30px;
+}
+
+header input{
+    width: 400px;
+    height: 40px;
+    padding: 5px;
+}
+
+.botoes{
+    gap: 15px;
+}
+
+/* Tutorial da doação */
+#tutorial{
+    background-color: #fff;
+    height: 430px;
+    margin-top: 180px;
+}
+
+#video{
+    background-color: #4cc094;
+    height: 300px;
+}
+
+#video iframe{
+    display: flex;
+    aspect-ratio: 16/9;
+    height: 90%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.h100{
+    height: 100%;
+}
+
+#tutorial .justify{
+    gap: 100px;
+}
+
+#tutorial h2{
+    background-color: #6dbeec;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    width: 80%;
+    padding: 20px;
+    color: #fff;
+    
+}
+
+#tutorial p{
+    font-size: 24px;
+    text-align: center;
+    width: 80%;
+}
+
+#vertical{
+    flex-direction: column;
+}
+
+/* Ultimas Doations*/
+#doations{
+    margin: 50px 0;
+}
+
+#doations h1{
+    text-align: center;
+}
+
+/* Grade */
+
+#grade{
+    width: 100%;
+}
+
+/* Footer */
+footer{
+    height: 415px;
+    background-color: #4d5c56;
+    color: #fff;
+    padding: 50px 0;
+    line-height: 40px;
+}
+
+footer a{
+    color: #fff !important;
+    width: fit-content;
+}
+
+.w30{
+    width: 20%;
+}
+
+.redes .justify{
+    gap: 15px;
+}
+
+.redes img{
+    width: 40px;
+    height: 40px;
+}
+
+hr{
+    margin: 50px 0;
+}
